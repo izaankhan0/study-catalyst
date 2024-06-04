@@ -68,6 +68,7 @@ h1 {
     width: 350px;
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
 }
 
 .hero-btn-1 {
@@ -85,7 +86,7 @@ h1 {
 
 .btn-hero>button {
     border: none;
-    border-radius: 17.5px;
+    border-radius: 40px;
     font-family: "Raleway", sans-serif;
     color: white;
     font-size: 21px;
