@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&family=Noto+Sans+Sundanese:wght@400..700&display=swap');
- /* <uniquifier>: Use a unique and descriptive class name
- <weight>: Use a value from 400 to 700
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&family=Noto+Sans+Sundanese:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-  font-family: "Noto Sans Sundanese", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal; */
-  .noto-sans-shavian-regular {
+ .noto-sans-shavian-regular {
+      font-family: "Noto Sans Sundanese", sans-serif;
     font-family: "Noto Sans Shavian", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-family: "Raleway", sans-serif;
+
   }
+
   
 *{
     margin: 0;
@@ -52,5 +51,41 @@ h1{
     font-family: "Noto Sans Shavian", sans-serif;
 
     color: white;
-    font-size: 40px;
+    font-size: 47px;
+    transform: translateY(-5px);
+    font-weight: 600;
+}
+.hero > p{
+    font-family: "Raleway", sans-serif;
+color: white;
+transform: translateY(-5px);
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.btn-hero{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-btn-1{
+    width: 90px;
+    padding: 7px 0px;
+    background-color: #0137fb;
+}
+.hero-btn-2{
+    width: 90px;
+    padding: 7px 0px;
+    background-color: #b20000;
+
+}
+.btn-hero > button{
+    /* width: 130px; */
+    /* height: 32px; */
+    border: none;
+    border-radius: 17.5px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: 600;
+    border: solid white 3px;
 }
