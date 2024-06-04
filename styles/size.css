@@ -1,0 +1,14 @@
+@media (max-width:440px){
+    h1{
+        font-size: 45px;
+    }
+    .hero > p{
+        font-size: 17px;
+    }
+    .logo>img {
+        height: 80%;
+        /* transition: ease-out 0.6s; */
+        /* transform: scale(0.1); */
+    
+    }
+}

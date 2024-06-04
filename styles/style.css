@@ -1,76 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&family=Noto+Sans+Sundanese:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
- .noto-sans-shavian-regular {
-      font-family: "Noto Sans Sundanese", sans-serif;
+
+.noto-sans-shavian-regular {
+    font-family: "Noto Sans Sundanese", sans-serif;
     font-family: "Noto Sans Shavian", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-family: "Raleway", sans-serif;
 
-  }
-*{
+}
+
+* {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
-body{
+
+body {
     background-color: #2E2E2E;
 }
-.hero{
+
+.hero {
     height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
 
 }
-.logo{
+
+.logo {
     height: 50vh;
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 60px;
+    align-items: end;
 }
-.logo > img{
-    height: 100%;
-    transition: ease-out 0.5s;
-}
-.half-logo.img1-loader{
-    transform: translateX(33.99vw);
-}
-.half-logo.img2-loader{
-    transform: translateX(-33.99vw);
-}
-h1{
-    font-family: "Noto Sans Shavian", sans-serif;
 
+.logo>img {
+    height: 100%;
+    transition: ease-out 0.6s;
+    transform: scale(0.1);
+
+}
+
+.anim-1{
+    transform: scale(1) !important;
+}
+
+h1 {
+    font-family: "Noto Sans Shavian", sans-serif;
     color: white;
-    font-size: 47px;
+    font-size: 50px;
     transform: translateY(-5px);
     font-weight: 600;
 }
-.hero > p{
+
+.hero>p {
     font-family: "Raleway", sans-serif;
-color: white;
-transform: translateY(-5px);
-font-size: 20px;
-font-weight: 400;
-margin-bottom: 10px;
+    color: white;
+    transform: translateY(-5px);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
-.btn-hero{
-    width: 250px;
+
+.btn-hero {
+    width: 240px;
     display: flex;
     justify-content: space-between;
 }
-.hero-btn-1{
+
+.hero-btn-1 {
     width: 90px;
     padding: 7px 0px;
     background-color: #0137fb;
 }
-.hero-btn-2{
+
+.hero-btn-2 {
     width: 90px;
     padding: 7px 0px;
     background-color: #b20000;
 
 }
-.btn-hero > button{
+
+.btn-hero>button {
     border: none;
     border-radius: 17.5px;
     font-family: "Raleway", sans-serif;
@@ -79,11 +92,13 @@ margin-bottom: 10px;
     border: solid white 3px;
     transition: linear 100ms;
 }
+
 .hero-btn-1:hover {
     border-color: black;
     color: black;
     cursor: pointer;
 }
+
 .hero-btn-2:hover {
     border-color: black;
     color: black;
