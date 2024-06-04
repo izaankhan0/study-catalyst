@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&family=Noto+Sans+Sundanese:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&family=Noto+Sans+Sundanese:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
  .noto-sans-shavian-regular {
       font-family: "Noto Sans Sundanese", sans-serif;
     font-family: "Noto Sans Shavian", sans-serif;
@@ -10,8 +7,6 @@
     font-family: "Raleway", sans-serif;
 
   }
-
-  
 *{
     margin: 0;
     padding: 0;
@@ -21,16 +16,13 @@ body{
 }
 .hero{
     height: 100vh;
-    overflow: hidden;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 
 }
 .logo{
     height: 50vh;
-    overflow: hidden;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -41,13 +33,12 @@ body{
     transition: ease-out 0.5s;
 }
 .half-logo.img1-loader{
-    transform: translateX(350px);
+    transform: translateX(33.99vw);
 }
 .half-logo.img2-loader{
-    transform: translateX(-350px);
+    transform: translateX(-33.99vw);
 }
 h1{
-    /* font-family: "Noto Sans Sundanese", sans-serif; */
     font-family: "Noto Sans Shavian", sans-serif;
 
     color: white;
@@ -80,12 +71,21 @@ margin-bottom: 10px;
 
 }
 .btn-hero > button{
-    /* width: 130px; */
-    /* height: 32px; */
     border: none;
     border-radius: 17.5px;
     font-family: "Raleway", sans-serif;
     color: white;
     font-weight: 600;
     border: solid white 3px;
+    transition: linear 100ms;
+}
+.hero-btn-1:hover {
+    border-color: black;
+    color: black;
+    cursor: pointer;
+}
+.hero-btn-2:hover {
+    border-color: black;
+    color: black;
+    cursor: pointer;
 }
