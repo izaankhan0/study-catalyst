@@ -107,7 +107,7 @@ h1 {
 }
 
 .about{
-    height: 100vh;
+    height: 90vh;
     background-color: #111827;
     display: flex;
     justify-content: center;
@@ -149,4 +149,36 @@ h2{
 .about-anotation{
     color: #b20000;
     font-weight: 600;
+}
+.portal{
+    background-color: #1F2937;
+    height: 100vh;
+    padding-top: 50px;
+
+}
+.portal-header > img{
+    width: 130px;
+}
+.portal-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portals > img{
+    height: 300px;
+}
+h3{
+    font-size: 70px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 20px;
+}
+.portals{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.portals > img{
+    height: 400px;
+    margin: 0px 50px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
 }
