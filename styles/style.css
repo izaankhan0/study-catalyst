@@ -178,7 +178,11 @@ h3{
     justify-content: center;
 }
 .portals > img{
-    height: 400px;
-    margin: 0px 50px;
-    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
+    height: 360px;
+    margin: 0px 70px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.portals > img:hover{
+    box-shadow: 20px 20px 20px black;
 }
