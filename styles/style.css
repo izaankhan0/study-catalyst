@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese:wght@400..700&display=swap');
+ /* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 400 to 700
+
+  font-family: "Noto Sans Sundanese", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2E2E2E;
+}
+.hero{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+.logo{
+    height: 50vh;
+    overflow: hidden;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.logo > img{
+    height: 100%;
+    transition: ease-out 1s;
+}
+.half-logo.img1-loader{
+    transform: translateX(350px);
+}
+.half-logo.img2-loader{
+    transform: translateX(-350px);
+}
+h1{
+    font-family: "Noto Sans Sundanese", sans-serif;
+    color: white;
+}
