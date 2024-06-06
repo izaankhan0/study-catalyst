@@ -306,6 +306,7 @@
         height: 150vh;
         position: relative;
         top: 15px;
+        padding-top: 10px;
     }
     .footer{
         height: 200vh;
