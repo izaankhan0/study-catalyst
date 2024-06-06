@@ -274,7 +274,7 @@
     }
 
     .vision {
-        height: 160vh;
+        height: 140vh;
     }
 
 }
@@ -316,13 +316,16 @@
         width: 90%;
         margin: 10px 0px;
     }
+    .credits{
+        height: 80vh;
+    }
 }
 @media (max-width:320px) {
     .portal{
         height: 150vh;
     }
     .vision{
-        height: 180vh;
+        height: 160vh;
     }
     .about{
         /* padding: 100px 0px; */
