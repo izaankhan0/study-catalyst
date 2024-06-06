@@ -193,7 +193,7 @@ h3{
 }
 
 .vision{
-    height: 110vh;
+    height: 125vh;
     background-color: #111827;
     display: flex;
     flex-direction: column;
@@ -295,8 +295,8 @@ background: linear-gradient(0deg, rgba(17,24,32,1) 42%, rgba(31,41,55,1) 58%);
 }
 .item > p{
     font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 20px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .item1 {
@@ -342,8 +342,76 @@ h5{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    background-image: url(../media/bg.png);
+    background-image: url(../media/bg.png)
+}
 
+.footer{
+    height: 50vh;
+    /* background-color: #470000; */
+    background-color: #1F2937;
+    background-image: url(../media/bg.png);
+    /* position: relative; */
+    /* bottom: 30px; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+}
+.footer-band{
+    height: 70vh;
+    background-color: #111827;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-item{
+    height: 80%;
+    width: 40%;
+    background-color: #1f2937; 
+    border-radius: 10px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-mid > img{
+    height: 170px;
+    margin-bottom: 10px;
+}
+h6{
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+
+}
+.footer-mid > p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.social > img{
+    height: 40px;
+    margin-right: 4px;
+    border-radius: 12px;
+}
+.social{
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.social-4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.social-1 > img, .social-3 > img{
+    border-radius: 12px;
+}
+.social > p{
+    font-size: 20px;
 }
