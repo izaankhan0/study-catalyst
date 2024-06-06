@@ -228,7 +228,7 @@
     }
 
     .portal {
-        height: 130vh;
+        height: 140vh;
 
     }
 }
@@ -316,7 +316,7 @@
         margin: 10px 0px;
     }
 }
-@media (max-width:300px) {
+@media (max-width:320px) {
     .portal{
         height: 150vh;
     }

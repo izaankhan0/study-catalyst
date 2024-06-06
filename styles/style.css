@@ -415,4 +415,36 @@ h6{
 }
 .social > p{
     font-size: 20px;
+    transition: 100ms ease-in;
+}
+.social > p > a{
+    text-decoration: none;
+    transition: 100ms ease-in;
+    
+}
+.social-1 > p:hover, .social-3 > p:hover{
+    transform: scale(1.16);
+    margin-left: 15px;
+}
+.social-2 > p:hover{
+    transform: scale(1.16);
+    margin-left: 15px;
+}
+.social-4 > p:hover{
+    transform: scale(1.16);
+    margin-left: 15px;
+}
+.social-1 > p > a:hover, .social-3 > p > a:hover{
+    color: #b50060;
+    font-weight: 800;
+}
+.social-2 > p > a:hover{
+    color: #420000;
+    font-weight: 800;
+
+}
+.social-4 > p > a:hover{
+    color: #000000;
+    font-weight: 800;
+
 }
