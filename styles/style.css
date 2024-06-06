@@ -216,13 +216,14 @@ h4{
 
 .vision-content{
     display: flex;
-    margin-top: 50px;
+    margin-top: 55px;
     justify-content: center;
     align-items: center;
 }
 .vision-content > img{
     height: 530px;
-    margin-left: 100px;
+    margin-left: 70px;
+    margin-right: 20px;
 
 }
 .vision-content > p{
@@ -230,4 +231,5 @@ h4{
     font-family: "Raleway", sans-serif;
     text-align: center;
     width: 80vh;
+    margin-left: 30px;
 }

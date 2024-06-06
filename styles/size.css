@@ -44,6 +44,31 @@
     }
 }
 @media (max-width:850px){
+
+    .vision{
+        height: 130vh;
+    }
+    .vision-content{
+        flex-direction: column-reverse;
+    }
+    .vision-content > img{
+        height: 400px !important;
+        margin: 0px 0px 50px 0px;
+    }
+    .vision-content > p{
+        margin: 0px 40px;
+        width: auto;
+        height: auto;
+        
+    }
+    .portals{
+        margin-top: 10px;
+    }
+    .portals > img{
+        width:  auto;
+        height: 300px;
+    }
+
     .about{
         flex-direction: column;
         /* justify-content: center; */
@@ -59,20 +84,16 @@
     .about-section-2 > p{
         font-size: 25px;
     }
-    .portals{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    
     .portal{
-        height: 140vh;
+        height: 90vh;
 
     }
     .portals > img{
         /* width: 100px; */
         /* height: 200px; */
         /* width: 100px; */
-        margin: 30px 0px;
+        margin: 50px 30px;
     }
     .portal-header{
         margin-bottom: 10px !important;
@@ -111,10 +132,17 @@
 @media (max-width:600px){
     h3{
         font-size: 50px;
-        /* text-align: center; */
+        text-align: center;
     }
     .portal-header > img{
         width: 100px;
+    }
+   
+    .portals > img{
+        /* width: 100px; */
+        height: auto;
+        width: 200px;
+        margin: 60px 20px 0px 20px;
     }
 }
 @media (max-width:440px){
@@ -127,9 +155,36 @@
         margin-bottom: 20px;
     }
     .portals > img{
-        height: 300px;
+        height: auto;
+        width: 200px;
     }
     .portal-header{
         flex-direction: column;
     }
+    .portals{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portal{
+        height: 130vh;
+
+    }
+}
+
+@media (max-width:1050px){
+    
+    
+ 
+    .vision-content > img{
+        height: 400px;
+       
+    
+    }
+    .vision-content > p{
+        font-size: 22px;
+        
+    }
+    
+
 }
