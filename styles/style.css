@@ -23,7 +23,7 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-
+    background-image: url(../media/bg.png);
 }
 
 .logo {
@@ -113,6 +113,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-content: center;
+    /* background-image: url(../media/bg.png); */
+
 }
 
 .about-section-1 > img{
@@ -155,6 +157,8 @@ h2{
     background-color: #1F2937;
     height: 100vh;
     padding-top: 50px;
+    background-image: url(../media/bg.png);
+
 
 }
 .portal-header > img{
