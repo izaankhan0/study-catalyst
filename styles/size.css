@@ -81,7 +81,7 @@
         margin-top: 10px;
     }
 
-    .portals>img {
+    .portals > a >img {
         width: auto;
         height: 300px;
     }
@@ -110,7 +110,7 @@
 
     }
 
-    .portals>img {
+    .portals> a > img {
         /* width: 100px; */
         /* height: 200px; */
         /* width: 100px; */
@@ -193,7 +193,7 @@
         width: 100px;
     }
 
-    .portals>img {
+    .portals > a >img {
         /* width: 100px; */
         height: auto;
         width: 200px;
@@ -215,7 +215,7 @@
         margin-bottom: 20px;
     }
 
-    .portals>img {
+    .portals> a >img {
         height: auto;
         width: 200px;
     }

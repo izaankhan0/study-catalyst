@@ -169,7 +169,7 @@ h2{
     align-items: center;
     justify-content: center;
 }
-.portals > img{
+.portals > a > img{
     height: 300px;
 }
 h3{
@@ -182,13 +182,13 @@ h3{
     display: flex;
     justify-content: center;
 }
-.portals > img{
+.portals > a > img{
     height: 360px;
     margin: 0px 70px;
     cursor: pointer;
     border-radius: 10px;
 }
-.portals > img:hover{
+.portals >a > img:hover{
     box-shadow: 20px 20px 20px black;
 }
 
