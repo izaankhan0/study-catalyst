@@ -50,3 +50,17 @@ h1{
     border-radius: 20px;
     margin: 20px 20px;
 }
+.card > a > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.card > a{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.card:hover{
+    box-shadow: 20px 20px 20px black;
+
+}
