@@ -37,7 +37,12 @@
 .fix-1{
     height: 115vh;
 }
-    
+@media (max-width:500px){
+    .fix-7{
+        font-size: 72px;
+    }
+}
+  
 }
 @media (max-width:480px){
     .cards{
@@ -74,6 +79,15 @@
     font-size: 60px;
 }
 }
+
+@media (max-width:400px){
+    .fix-6{
+        font-size: 50px;
+    }
+    .fix-7{
+        font-size: 60px;
+    }
+}
 @media (max-width:350px){
     h1{
         /* padding-top: 50px; */
@@ -94,4 +108,9 @@
 .fix-5{
     font-size: 50px;
 }
+}
+@media (max-width:320px){
+    .fix-6{
+        font-size: 42px;
+    }
 }
