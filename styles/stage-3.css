@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&family=Noto+Sans+Sundanese:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-sans-shavian-regular {
+    font-family: "Noto Sans Sundanese", sans-serif;
+    font-family: "Noto Sans Shavian", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+
+}
+.container{
+    background-color: #b20000;
+    background-image: url(../media/bg.png);
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 68px;
+    margin-left: 14px;
+    color: rgb(10 0 87);
+    font-weight: 800;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin-bottom: 10px;
+}
+.header > img{
+    height: 70px;
+}
+.content{
+    margin: 0px 30px 0px 30px;
+    padding-bottom: 60px;
+}
+h2{
+    font-size: 40px;
+    color: rgb(10 0 87);
+    margin: 20px 0px 3px 0px;
+}
+
+h3{
+    margin: 10px 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+}
+
+hr{
+    height: 3px;
+    background-color: white;
+    max-width: 1000px;
+}
