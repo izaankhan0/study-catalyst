@@ -12,6 +12,9 @@
 </head>
 
 <body>
+    <div id="preloader">
+
+    </div>
     <div class="container">
         <!-- MAIN HERO PAGE -->
         <div class="hero">
@@ -145,6 +148,12 @@
     </div>
     <script src="./script.js"></script>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        let loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>
