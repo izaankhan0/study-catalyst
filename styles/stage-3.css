@@ -101,17 +101,20 @@ hr{
 
 }
 .hr-a-1{
-    width: 700px;
+    max-width: 700px;
 }
 .hr-a-2{
-    width: 640px;
+    max-width: 640px;
 }
 .hr-a-3{
-    width: 640px;
+    max-width: 640px;
 }
 .hr-a-4{
-    width: 800px;
+    max-width: 800px;
 }
 .hr-a-5{
-    width: 500px;
+    max-width: 500px;
+}
+.hr-a-6{
+    max-width: 650px;
 }
