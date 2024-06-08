@@ -70,3 +70,13 @@ h1{
     box-shadow: 20px 20px 20px black;
 
 }
+
+
+#preloader{
+    background: #111827 url(../media/screen-loader.gif) no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
