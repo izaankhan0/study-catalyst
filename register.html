@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,45 @@
     <link rel="icon" type="image/x-icon" href="./media/favicon.ico">
     <link rel="stylesheet" href="./styles/register.css">
 </head>
+
 <body>
     <div id="preloader"></div>
 
     <div class="container">
+        <div class="header">
+            <img src="./media/full-logo.png" alt="">
+            <h1>Register</h1>
+        </div>
         <div class="main">
-            <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="card">
 
-                <input type="hidden" name="access_key" value="9706454e-9bf5-479d-ae44-790a5ac3d7ba">
-            
+                <form action="https://api.web3forms.com/submit" method="POST">
 
-                <input type="text" name="name" required>
-                <input type="email" name="email" required>
-                <textarea name="message" required></textarea>
-                <button type="submit">Submit Form</button>
-            
-            </form>
+                    <input type="hidden" name="access_key" value="9706454e-9bf5-479d-ae44-790a5ac3d7ba">
+
+
+                    <input class="item item-1" type="text" placeholder="Enter your Name" name="name" required>
+                    <input class="item item-2" type="email" placeholder="Enter your Email" name="email" required>
+                    <input class="item item-3" placeholder="Enter your Whatsapp Number" type="tel" name="email" required>
+                    <h2>Pay 5000 PKR </h2>
+                    <h5>EasyPaisa Number: 0335-0326286</h3>
+                    <h3>IBAN Number: PK02TMFB0000000080466651</h3>
+                    <h4>Attach Screenshot of invoice below</h3>
+                    <input class="item-4 item" type="file" name="fileToUpload" id="fileToUpload">
+                    <!-- <textarea class="item item-3" name="message" required></textarea> -->
+                    <button class="item item-5" type="submit">Submit</button>
+
+                </form>
+            </div>
         </div>
     </div>
 
     <script>
         let loader = document.getElementById("preloader");
-        window.addEventListener("load", function(){
+        window.addEventListener("load", function () {
             loader.style.display = "none";
         })
     </script>
 </body>
+
 </html>

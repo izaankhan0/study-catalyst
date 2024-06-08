@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&family=Noto+Sans+Sundanese:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-sans-shavian-regular {
+    font-family: "Noto Sans Sundanese", sans-serif;
+    font-family: "Noto Sans Shavian", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+
+}
+
+body {
+    background-color: #111827;
+    background-image: url(../media/bg.png);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>img {
+    height: 70px;
+    margin: 12px 10px;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.card {
+    /* width: ; */
+    padding: 20px 0px;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    /* background-color: #0008D1; */
+    border-radius: 20px;
+    min-height: 80vh;
+    background: 135deg, rgba(81, 0, 0, 0.1), rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 8px 32px 0 rgb(125, 4, 4);
+}
+
+form {
+    /* background-color: aqua; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.item {
+    width: 90%;
+    max-width: 500px;
+    border: none;
+    border-radius: 10px;
+    /* background-color: #0008D1; */
+    height: 50px;
+    margin: 10px 0px;
+    text-align: center;
+    color: wheat;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 8px 0px;
+    /* font-family: "Noto Sans Sundanese", sans-serif; */
+    /* font-family: "Noto Sans S/havian", sans-serif; */
+    font-weight: 900;
+    text-align: center;
+    color: wheat;
+
+
+}
+
+h2>img {
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.item-4 {
+    width: 200px;
+    height: 20px;
+    border-radius: 0;
+}
+
+.item-5 {
+    background-color: #b20000;
+    font-size: 26px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 40px;
+    color: rgb(10 0 87);
+    background-image: url(../media/bg.png);
+    transition: 200ms ease-in;
+    max-width: 200px;
+}
+
+.item-5:hover {
+    background-color: rgb(10 0 87);
+    color: #b20000;
+    background-image: url(../media/bg2.png);
+
+}
+
+h3 {
+    font-family: "Noto Sans Sundanese", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: wheat;
+
+}
+
+h5 {
+    font-family: "Noto Sans Sundanese", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: wheat;
+
+
+}
+
+h4 {
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+@media (max-width:800px) {
+    h2{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 24px;
+
+    }
+    h4{
+        font-size: 20px;
+    }
+}
+@media (max-width:580px) {
+    /* h2{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 24px;
+
+    } */
+    .card{
+        /* margin: 0px 10px; */
+        width: 95%;
+    }
+}
+@media (max-width:420px) {
+    h2{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 18px;
+
+    }
+    h1{
+        font-size: 38px;
+    }
+    .header > img{
+        height: 40px;
+        margin-top: 18px;
+    }
+    
+}
+@media (max-width:345px) {
+    h2{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 16px;
+
+    }
+    
+}
