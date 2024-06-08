@@ -135,7 +135,7 @@ h2>img {
     background-image: url(../media/bg.png);
     transition: 200ms ease-in;
     max-width: 200px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .item-5:hover {
@@ -144,7 +144,10 @@ h2>img {
     background-image: url(../media/bg2.png);
 
 }
-
+.reg-fix-1{
+    margin: 20px 20px;
+    font-size: 18px;
+}
 h3 {
     font-family: "Noto Sans Sundanese", sans-serif;
     font-size: 24px;
