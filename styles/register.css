@@ -87,9 +87,16 @@ form {
     height: 50px;
     margin: 10px 0px;
     text-align: center;
-    color: wheat;
-}
+    font-weight: 500;
+    color: aliceblue;
+    
+    }
+    .item-1, .item-2, .item-3{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
 
+}
 h2 {
     display: flex;
     justify-content: center;
@@ -100,7 +107,7 @@ h2 {
     /* font-family: "Noto Sans S/havian", sans-serif; */
     font-weight: 900;
     text-align: center;
-    color: wheat;
+    color: red;
 
 
 }
@@ -128,6 +135,7 @@ h2>img {
     background-image: url(../media/bg.png);
     transition: 200ms ease-in;
     max-width: 200px;
+    margin-top: 30px;
 }
 
 .item-5:hover {
@@ -141,7 +149,7 @@ h3 {
     font-family: "Noto Sans Sundanese", sans-serif;
     font-size: 24px;
     text-align: center;
-    color: wheat;
+    color: red;
 
 }
 
@@ -149,7 +157,7 @@ h5 {
     font-family: "Noto Sans Sundanese", sans-serif;
     font-size: 32px;
     text-align: center;
-    color: wheat;
+    color: red;
 
 
 }
