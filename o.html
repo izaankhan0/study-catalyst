@@ -11,6 +11,8 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
+
     <div class="container">
 
         <h1><span class="O-h1">O</span> Levels</h1>
@@ -49,6 +51,12 @@
     </div>
 
     <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        let loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>
