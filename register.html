@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="icon" type="image/x-icon" href="./media/favicon.ico">
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="./styles/register.css">
 </head>
 <body>
     <div id="preloader"></div>
 
     <div class="container">
+        <div class="main">
+            <form action="https://api.web3forms.com/submit" method="POST">
 
+                <input type="hidden" name="access_key" value="9706454e-9bf5-479d-ae44-790a5ac3d7ba">
+            
+
+                <input type="text" name="name" required>
+                <input type="email" name="email" required>
+                <textarea name="message" required></textarea>
+                <button type="submit">Submit Form</button>
+            
+            </form>
+        </div>
     </div>
 
     <script>
