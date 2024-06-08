@@ -84,7 +84,7 @@ h1 {
 
 }
 
-.btn-hero>button {
+button {
     border: none;
     border-radius: 40px;
     font-family: "Raleway", sans-serif;
@@ -95,7 +95,7 @@ h1 {
     transition: linear 100ms;
 }
 
-.hero-btn-1:hover {
+button:hover {
     border-color: black;
     color: black;
     cursor: pointer;
