@@ -102,6 +102,10 @@ h2{
     .small-cont{
         margin: 20px 30px;
     }
+    .fix-x{
+        text-align: center;
+        font-size: 40px;
+    }
 }
 @media (max-width:415px) {
     h1{
