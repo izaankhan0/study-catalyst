@@ -14,8 +14,8 @@
 }
 
 .container{
-    background-color: #b20000;
-    background-image: url("../media/bg.png");
+    background-color: rgb(10 0 87);
+    background-image: url("../media/bg2.png");
     min-height: 100vh;
 }
 
@@ -31,7 +31,7 @@
 }
 h1{
     font-size: 70px;
-    color: rgb(10 0 87);
+    color: #b20000;
     font-weight: 900;
 }
 .content{
@@ -54,10 +54,10 @@ h1{
 
 h2{
     text-align: center;
-    font-size: 42px;
+    font-size: 52px;
     margin-bottom: 10px;
-    color: rgb(10 0 87);
-    font-weight: 800;
+    color: #b20000;
+    font-weight: 900;
 }
 .small-cont{
     /* height: 60%; */
