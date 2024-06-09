@@ -74,3 +74,53 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0px 8px 32px 0 rgb(125, 4, 4);
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.item {
+    width: 90%;
+    max-width: 500px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: 700;
+    color: #111827;
+    font-size: 18px;    
+}
+
+
+.item-btn {
+    background-color: #b20000;
+    font-size: 26px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 40px;
+    color: rgb(10 0 87);
+    background-image: url(../media/bg.png);
+    transition: 200ms ease-in;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 50px;
+}
+
+.item-btn:hover {
+    background-color: rgb(10 0 87);
+    color: #b20000;
+    background-image: url(../media/bg2.png);
+
+}
+
+@media (max-width:520px){
+    .card{
+        width: 90%;
+    }
+}
