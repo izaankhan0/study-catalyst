@@ -17,6 +17,8 @@
     background-color: rgb(10 0 87);
     background-image: url("../media/bg2.png");
     min-height: 100vh;
+    overflow: hidden;
+
 }
 
 .header{
