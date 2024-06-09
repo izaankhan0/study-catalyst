@@ -53,3 +53,24 @@ h1 {
     position: fixed;
     z-index: 100;
 }
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.card {
+    padding: 20px 0px;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    min-height: 70vh;
+    background: 135deg, rgba(81, 0, 0, 0.1), rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 8px 32px 0 rgb(125, 4, 4);
+}
