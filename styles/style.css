@@ -19,6 +19,7 @@
 .hero {
     background-color: #1F2937;
     height: 100vh;
+    min-height: 650px !important;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -29,6 +30,7 @@
 .logo {
     height: 50vh;
     width: 100vw;
+    min-height: 325px;
     display: flex;
     justify-content: center;
     margin-top: 60px;
