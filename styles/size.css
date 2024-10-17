@@ -202,6 +202,10 @@
     .portal{
         height: 70vh;
     }
+    .vision{
+        min-height: 1000px;
+    }
+
 }
 
 @media (max-width:440px) {
@@ -334,3 +338,10 @@
     }
 }
 
+
+@media (max-width:400px) {
+    .vision{
+        min-height: 1050px;
+    }
+
+}
