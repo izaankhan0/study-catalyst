@@ -345,3 +345,10 @@
     }
 
 }
+@media (max-height:463px) {
+    .footer-band{
+        min-height: 370px;
+    }
+
+}
+

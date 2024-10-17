@@ -199,7 +199,7 @@ h3{
 
 .vision{
     height: 125vh;
-    min-height: 850px;
+    min-height: 950px;
     background-color: #111827;
     display: flex;
     flex-direction: column;
@@ -256,7 +256,7 @@ h4{
   max-width: 1536px;
   margin-inline: auto;
   position: relative;
-  height: 300px;
+  min-height: 300px;
   margin-top: 5rem;
   overflow: hidden;
   mask-image: linear-gradient(
@@ -346,6 +346,7 @@ h5{
 }
 .credits{
     height: 100vh;
+    min-height: 520px;
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -354,6 +355,7 @@ h5{
 
 .footer{
     height: 50vh;
+    min-height: 600px;
     /* background-color: #470000; */
     background-color: #1F2937;
     background-image: url(../media/bg.png);
@@ -366,6 +368,7 @@ h5{
 }
 .footer-band{
     height: 70vh;
+    /* min-height: 976px; */
     background-color: #111827;
     border-radius: 30px;
     position: relative;
