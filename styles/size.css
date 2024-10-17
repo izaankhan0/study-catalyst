@@ -283,6 +283,12 @@
     .vision {
         height: 140vh;
     }
+    .portals > a{
+        margin: 0px !important;
+    }
+    .portals > a > img{
+        margin: 30px !important;
+    }
 
 }
 
@@ -348,6 +354,19 @@
 @media (max-height:463px) {
     .footer-band{
         min-height: 370px;
+    }
+
+}
+@media (max-width:1170px) {
+    .portals{
+            flex-wrap: wrap;
+    }
+    .portals > a{
+        margin-top: 40px;
+    }
+    .portal{
+        height: auto;
+        padding-bottom: 100px;
     }
 
 }
