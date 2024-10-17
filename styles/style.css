@@ -111,6 +111,7 @@ button:hover {
 
 .about{
     height: 90vh;
+    min-height: 580px;
     background-color: #111827;
     display: flex;
     justify-content: center;
